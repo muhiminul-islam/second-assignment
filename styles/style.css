@@ -63,3 +63,13 @@ header{
     margin-bottom: 50px;
     margin-left: 450px;
 }
+/* quick list section */
+.quick-list-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+.quick-list{
+    display: flex;
+}
